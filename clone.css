@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./assets/65273da62cbf8363b445b021_abcgintonord-800-extrabold.woff2);
+  }
+
+@font-face{
+    font-family: discord-body;
+    src: url(./assets/652736292cbf8363b43d077a_ggsans-Normal.woff2);
+    font-weight: lighter;
+}
+
+@font-face{
+    font-family: column-heading;
+    src: url(./assets/652737c30510e4ad4333a424_ggsans-Bold.woff2)
+}
+
+.nav-container{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.logo{
+    color:white;
+    font-size: 20px;
+    font-family: myFirstFont;
+}
+
+.logo-img{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo-img .logo {
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+nav ul li{
+    list-style-type: none;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.nav-container button{
+    font-weight: bold;
+    border-radius: 20px;
+    background-color:white;
+    padding: 10px 20px;
+    border: 0px;
+
+}
+
+.main-body {
+    height: 600px;
+    align-content: center;
+    padding-left: 100px;
+    text-align: center;
+    color: white;
+}
+
+.main-body h1 {
+    font-size: 70px;
+    font-family: myFirstFont;
+}
+
+.main-body p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: discord-body;
+    font-size: 20px;
+
+}
+
+.body-container {
+    background-image: url(./assets/discord.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.button1, .button2{
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.button1 .svg1 {
+    margin-right: 10px;
+}
+
+.button2 .svg2 {
+    margin-right: 10px;
+
+}
+
+.download-b .button1{
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 40px;
+        background-color:white;
+        padding: 17px 30px;
+        border: 0px;  
+}
+
+.download-b .button2{
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 15px;
+    background-color:white;
+    padding: 17px 30px;
+    border: 0px;  
+}
+
+.column-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-column-child {
+    width: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-1 {
+    flex: 1;
+    align-items: center;
+    justify-content: right;
+    padding: 20px;
+}
+
+.child-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 0;
+}
+
+.child-1 img{
+    width: 550px;
+}
+
+div .heading{
+    font-family: column-heading;
+    font-weight: bolder;
+    font-size: 47px;
+    line-height: 1.1;
+}
+
+div .p-body{
+    font-family: discord-body;
+    font-size: 21px ;
+}
+
+.bg-highlight {
+    background-color: rgb(245, 242, 242);;
+}
+
+.column{
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+.head4{
+    font-family: myFirstFont !important;
+}
+
+.image1 img{
+    width: 100%;
+}
+
+/* .para4{
+    line-height: 
+} */
